@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Online Registration</title>
+  <title>Course Details - CyberSolvings</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -54,8 +54,9 @@
           <li><a href="trainers.html">Online Registration</a></li>
           <li><a href="events.html">Certificate</a></li>
           <li><a href="pricing.html">Corporate Training</a></li>
-
+          
           <li class="dropdown"><a href="#"><span>Courses</span> <i class="bi bi-chevron-down"></i></a>
+                 
             <ul>
               <li><a href="#">New Course</a></li>
               <li class="dropdown"><a href="#"><span>Python</span> <i class="bi bi-chevron-right"></i></a>
@@ -206,97 +207,168 @@
         </ul>
       </li>
         </ul>
-
-          </li>
-  
-        </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
       <a href="contact.html" class="get-started-btn">Get Started</a>
 
     </div>
-  </header>
-  <!-- End Header -->
-  <main id="main" data-aos="fade-in">
+  </header><!-- End Header -->
 
-    <div class="breadcrumbs">
-      <h2>Student Registration Form</h2>
-      <form action="submit_registration.php" method="post">
-        <div class="row">
-          <div class="col">
-            <label for="firstname">First Name:</label>
-            <input type="text" id="firstname" name="firstname" required>
-          </div>
-          <div class="col">
-            <label for="lastname">Last Name:</label>
-            <input type="text" id="lastname" name="lastname" required>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="col">
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <label for="course">Select Course:</label>
-            <select id="course" name="course">
-              <option value="Python Full Stack">Python Full Stack</option>
-              <option value="SQL Developer">SQL Developer</option>
-              <option value="Web Developer">Web Developer</option>
-              <option value="Data Analytics">Data Analytics</option>
-              <option value="Data Science">Data Science</option>
-              <option value="Digital Marketing">Digital Marketing</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
-          <div class="col">
-            <label for="branch">Select Branch:</label>
-            <select id="branch" name="branch">
-              <option value="Kurukshetra">Kurukshetra</option>
-              <!-- Add more branches if needed -->
-            </select>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <label for="address">Address:</label>
-            <input type="text" id="address" name="address" required>
-          </div>
-          <div class="col">
-            <label for="city">City:</label>
-            <input type="text" id="city" name="city" required>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <label for="country">Country:</label>
-            <input type="text" id="country" name="country" required>
-          </div>
-          <div class="col">
-            <label for="zip">ZIP Code:</label>
-            <input type="text" id="zip" name="zip" required>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-           <!-- <label for="amount">Amount:</label> -->
-          <!-- <input type="number" id="amount" name="amount" required> --> 
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <input type="submit" value="Submit">
-          </div>
-        </div>
-</main>
+  <main id="main">
 
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs" data-aos="fade-in">
+      <div class="container">
+        <h2>Course Details</h2>
+        <p><b>WEB DEVELOPER<b> </p>
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Cource Details Section ======= -->
+    <section id="course-details" class="course-details">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-8">
+            <img src="assets/img/course-details.jpeg" class="img-fluid" alt="">
+            <h3>WEB</h3>
+            <p>
+           A web developer designs and builds websites, utilizing languages like HTML, CSS, and JavaScript.
+         They create visually appealing, responsive sites, ensuring seamless user experiences across devices. Proficient in frameworks like React or Angular,
+          they integrate functionality and interactivity, optimizing performance and accessibility. Web developers collaborate with designers and clients, implementing features, and troubleshooting issues to deliver polished, user-centric websites. With a keen eye for design and a solid understanding of web technologies,
+           they craft engaging digital experiences that meet client objectives and user needs.
+            </p>
+          </div>
+          <div class="col-lg-4">
+
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5>Trainer</h5>
+              <p><a href="#">Ajit</a></p>
+            </div>
+
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5>Course Fee</h5>
+              <p>Contact institute No</p>
+            </div>
+
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5>Available Seats</h5>
+              <p>10</p>
+            </div>
+
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5>Schedule</h5>
+              <p>10.00 am - 7.00 pm</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cource Details Section -->
+
+    <!-- ======= Cource Details Tabs Section ======= -->
+   <section> <h2>Roadmap</h2> </section>
+    <section id="cource-details-tabs" class="cource-details-tabs">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">FUNDAMENTAL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">HTML</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">CSS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">JAVASCRIPT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">VERSION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">TESTING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">PROJECT</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>FUNDAMENTAL</h3>
+                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/fun.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>HTML</h3>
+                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/htm.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>CSS</h3>
+                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/css.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>JAVASCRIPT</h3>
+                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
+                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/java.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>VERSION</h3>
+                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/git.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cource Details Tabs Section -->
+
+  </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
